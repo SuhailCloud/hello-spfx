@@ -8,8 +8,13 @@ import {
 import { BaseClientSideWebPart } from '@microsoft/sp-webpart-base';
 
 import * as strings from 'ChangeControlManagementWebPartStrings';
-import ChangeControlManagement from './components/ChangeControlManagement';
+
+
 import { IChangeControlManagementProps } from './components/IChangeControlManagementProps';
+import { ChangeControlManagement } from './components/ChangeControlManagement';
+
+
+
 
 export interface IChangeControlManagementWebPartProps {
   description: string;
