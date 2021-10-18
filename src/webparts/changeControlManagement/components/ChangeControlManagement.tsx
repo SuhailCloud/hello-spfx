@@ -27,36 +27,6 @@ const columnProps: Partial<IStackProps> = {
 };
 const stackStyles: Partial<IStackStyles> = { root: { width: 650 } };
 
-// interface ICalendarButtonExampleProps {
-//   isDayPickerVisible?: boolean;
-//   isMonthPickerVisible?: boolean;
-//   highlightCurrentMonth?: boolean;
-//   highlightSelectedMonth?: boolean;
-//   buttonString?: string;
-//   showMonthPickerAsOverlay?: boolean;
-//   showGoToToday?: boolean;
-// }
-// let calendarButtonElement: HTMLElement;
-// const [showCalendar, { toggle: toggleShowCalendar }] = useBoolean(false);
-// const [selectedDate, setSelectedDate] = React.useState<Date>();
-
-// const {
-//   showMonthPickerAsOverlay = false,
-//   isDayPickerVisible = true,
-//   isMonthPickerVisible = true,
-//   showGoToToday = true,
-//   buttonString = 'Click for Calendar',
-//   highlightCurrentMonth,
-//   highlightSelectedMonth,
-// } = props;
-
-// const onSelectDate = (date: Date): void => {
-//   toggleShowCalendar();
-//   setSelectedDate(date);
-// };
-// 
-
-
 
 export const ChangeControlManagement: React.FunctionComponent<IChangeControlManagementProps> = (props) => {
   return (
@@ -82,9 +52,7 @@ export const ChangeControlManagement: React.FunctionComponent<IChangeControlMana
           </AccordionItemHeading>
           <AccordionItemPanel>
             <p>
-              In ad velit in ex nostrud dolore cupidatat consectetur
-              ea in ut nostrud velit in irure cillum tempor laboris
-              sed adipisicing eu esse duis nulla non.
+             Data
             </p>
           </AccordionItemPanel>
         </AccordionItem>
