@@ -1,5 +1,4 @@
-# change-control-management
-
+# Authored by Suhail Jamaldeen
 ## Summary
 
 Short summary on functionality and used technologies.
